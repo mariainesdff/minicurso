@@ -12,6 +12,8 @@ Some of these exercises are adapted from the talk about structures and classes f
 <https://icerm.brown.edu/video_archive/?play=2897>
 -/
 
+set_option autoImplicit false
+
 open Nat
 
 /-! # Structures

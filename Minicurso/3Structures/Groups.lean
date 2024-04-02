@@ -16,6 +16,8 @@ subgroup and prove results about it using Mathlib's groups API.
 Next, we will prove some lemmas about group homomorphisms (for which we will use Mathlib's
 definition of subgroup). -/
 
+set_option autoImplicit false
+
 /-- `MySubgroup G` is the type of subgroups of a gorup `G`. -/
 @[ext] structure MySubgroup (G : Type) [Group G] where
   carrier : Set G -- `carrier` is a subset of `G`

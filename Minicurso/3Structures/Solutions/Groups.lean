@@ -7,6 +7,8 @@ Author : María Inés de Frutos-Fernández
 import Mathlib.Tactic
 import Mathlib.GroupTheory.Subgroup.Basic -- we import subgroups from Mathlib
 
+set_option autoImplicit false
+
 /-!
 # Subgroups and group homomorphisms
 

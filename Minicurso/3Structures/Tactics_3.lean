@@ -6,6 +6,8 @@ Author : María Inés de Frutos-Fernández
 
 import Mathlib.Tactic
 
+set_option autoImplicit false
+
 /-!
 # New tactics
 * `ext`
