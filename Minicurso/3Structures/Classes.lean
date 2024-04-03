@@ -1,5 +1,5 @@
 /-
-Copyright (c) 2023 María Inés de Frutos-Fernández. All rights reserved.
+Copyright (c) 2024  María Inés de Frutos-Fernández. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Author : María Inés de Frutos-Fernández
 -/
@@ -101,15 +101,15 @@ instance : MyNonempty ℤ where
 instance {A B : Type} [ha : MyNonempty A] [hb : MyNonempty B] :
     MyNonempty (A × B) where
   has_val := by
-    cases' ha.has_val with a _
-    cases' hb.has_val with b _
+    rcases ha.has_val with ⟨a, _⟩
+    rcases hb.has_val with ⟨b, _⟩
     use (a, b)
 
 -- Alternative proof
 example {A B : Type} [ha : MyNonempty A] [hb : MyNonempty B] :
     MyNonempty (A × B) := by
-  cases' ha.has_val with a _
-  cases' hb.has_val with b _
+  rcases ha.has_val with ⟨a, _⟩
+  rcases hb.has_val with ⟨b, _⟩
   apply MyNonempty.mk
   use (a, b)
 
