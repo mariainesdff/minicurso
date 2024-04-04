@@ -86,19 +86,10 @@ tactic to replace these terms by their definition.-/
 
 /- For example, we can start this proof with `rw [injective_def]`, and later use `rw [id_eval]`. -/
 lemma injective_id : Injective (id : X → X) := by
-  --rw [injective_def]
-  intro a b hab
-  --rw [id_eval, id_eval] at hab
-  exact hab
+  sorry
 
 /-- A composition of injective functions is injective. -/
 lemma injective_comp (hf : Injective f) (hg : Injective g) : Injective (g ∘ f) := by
-  rw [injective_def] at hf hg ⊢
-  intros a b hab
-  rw [comp_eval, comp_eval] at hab
-  have hfab : f a = f b := by
-    apply hg (f a) (f b) hab
-  exact hf _ _ (hg _ _ hab)
   sorry --exercise
 
 /- Exercise-/
@@ -124,13 +115,7 @@ lemma surjective_id : Surjective (id : X → X) := by
 
 /-- A composition of surjective functions is surjective. -/
 lemma surjective_comp (hf : Surjective f) (hg : Surjective g) : Surjective (g ∘ f) := by
-  rw [surjective_def] at *
-  intro z
-  rcases (hg z) with ⟨y, hyz⟩
-  rcases (hf y) with ⟨x, hxy⟩
-  use x
-  rw [comp_eval, hxy, hyz]
-  --rw [← hyz, ← hxy, comp_eval]
+  sorry
 
 
 /- Example -/
