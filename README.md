@@ -18,7 +18,7 @@ Part 3: Structures and classes.
 We will discuss [Structures](https://lean.math.hhu.de/#url=https%3A%2F%2Fraw.githubusercontent.com%2Fmariainesdff%2Fminicurso%2Fmaster%2FMinicurso%2F2MoreTactics%2FFunctionsExercises.lean), [Classes](https://lean.math.hhu.de/#url=https%3A%2F%2Fraw.githubusercontent.com%2Fmariainesdff%2Fminicurso%2Fmaster%2FMinicurso%2F2MoreTactics%2FFunctionsExercises.lean), and examples from [Group Theory](https://lean.math.hhu.de/#url=https%3A%2F%2Fraw.githubusercontent.com%2Fmariainesdff%2Fminicurso%2Fmaster%2FMinicurso%2F2MoreTactics%2FFunctionsExercises.lean). See also the [Tactic Guide](https://raw.githubusercontent.com/mariainesdff/minicurso/master/Minicurso/3Structures/Tactics_3.lean).
 
 Part 4: Using Mathlib.
-I will introduce some techniques and resources for [using Mathlib](https://lean.math.hhu.de/#url=https%3A%2F%2Fraw.githubusercontent.com%2Fmariainesdff%2Fminicurso%2Fmaster%2FMinicurso%2F2MoreTactics%2FFunctionsExercises.lean) effectively.
+I will introduce some techniques and resources for [using Mathlib](https://lean.math.hhu.de/#url=https%3A%2F%2Fraw.githubusercontent.com%2Fmariainesdff%2Fminicurso%2Fmaster%2FMinicurso%2F4Mathlib%2FUsingMathlib.lean) effectively.
 
 ## Installation Instructions
 Lean 4 installation instructions can be found [here](https://leanprover-community.github.io/get_started.html).
